@@ -3,13 +3,13 @@
 all: pdf html docx
 
 pdf: TEMPLATE.md
-	pandoc -o experiment-plan.pdf $<
+	pandoc -o TEMPLATE.pdf $<
 
 docx: TEMPLATE.md
-	pandoc -o experiment-plan.docx $<
+	pandoc -o TEMPLATE.docx $<
 
 html: TEMPLATE.md
-	pandoc -o experiment-plan.html $<
+	pandoc -o TEMPLATE.html $<
 
 clean:
-	$(RM) -f experiment-plan.{pdf,docx,html}
+	$(RM) -f TEMPLATE.{pdf,docx,html}

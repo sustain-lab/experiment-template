@@ -55,27 +55,16 @@ Wave staffs | 100 | Water elevation $\eta$ [m] | Omnidirectional elevation spect
 
 ### Position and configuration
 
-This section describes the positioning of each instrument in the tank and
-the technical configuration.
-
-<!--![ASIST tank schematic](assets/lab-instruments-diagram.png)-->
-
-In the table below, list the fetch (distance from inlet),
-height (distance from mean water level if in air),
-and depth (distance from the bottom if in water),
-for each of the instruments used.
-
-Instrument | Fetch [m] | Height [m] | Depth [m] 
------------|-----------|------------|----------
-Pitot tube | 4.64      | 0.29
-...        |           |
+Complete the inventory form (assets/instruments-inventory.pdf)
+and list the positions of each instrument in the tank.
 
 ### Limitations
 
-List any known limitations or issues regarding the instrument setup, such as:
+List any known or suspect limitations or issues 
+regarding the instrument setup, such as:
 
 * Is any instrument obstructing the flow to any other instrument?
-* Is any instrument mounted too to the inlet or the beach?
+* Is any instrument mounted too close to the inlet or the beach?
 * Are any experiment conditions potentially damaging for any of the instruments,
 e.g. salt water and high wind for hot film probes.
 
@@ -106,6 +95,7 @@ Specify dates and times when you will conduct:
 * **Installation**: Mounting the hardware, wiring, data acquisition software;
 * **Testing**: Making sure each instrument does what you want it to do;
 * **Experiment**: Actual data collection.
+* **Cleanup**: Actual data collection.
 
 ## Checklist
 
